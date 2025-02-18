@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uttam's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">Uttam's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Uttam Kumar Pathak</span></h1>
+        <h2>Web Developer</h2>
+        <p>I can build scalable, efficient web solutions</p>
+
+        <a href="#contact" class="cta-button">Get in Touch</a>
+        <a href="assets/Uttams's_Resume.pdf" class="cta-button">Resume</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="assets/about.jpg" alt="Profile Picture" />
+        </div>
+        <div class="about-text">
+          <p>
+            Results-driven Front-end web developer with expertise in HTML5, CSS,
+            JavaScript, and MySQL databases. Passionate about building scalable,
+            efficient web solutions. Good problem-solving skills demonstrated
+            through competitive coding achievements. Seeking to contribute to
+            innovative software development projects.
+          </p>
+          <div class="education">
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <h4>Galgotias University</h4>
+                <p>Master of Computer Application</p>
+                <p>2023 - 2025</p>
+                <p>CGPA : 8.26</p>
+              </li>
+              <li>
+                <h4>Magadh University</h4>
+                <p>Bachelor of Computer Application</p>
+                <p>2017 - 2020</p>
+                <p>%age : 68.00</p>
+              </li>
+              <!-- <li>
+                <h4>B.B.M COllege</h4>
+                <p>Intermediate</p>
+                <p>2015 - 2017</p>
+                <p>%age : 55.40</p>
+              </li>
+              <li>
+                <h4>Utkramit Uccha Vidyalay</h4>
+                <p>Matriculation</p>
+                <p>2014 - 2015</p>
+                <p>%age : 65.60</p>
+              </li> -->
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>C</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-java"></i>
+          <h3>Java</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>MySQL</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="assets/project-1.jpg" alt="Project 1" />
+          <h3>Movie Recommendation System</h3>
+           <ol>
+            <li>Uses Cosign Similarity to measure the similarity between two vectors in machine learning and natural language
+                processing.</li>
+            <li>Developed a Model that recommends movies according to the user sentiments.</li>
+            <li>Uses Heroku, a container-based cloud Platform as a Service (PaaS) to deploy my model to the webpage.</li>
+           </ol>
+          <div class="project-links">
+            <a href="https://github.com/kumaruttampathak/MovieRecommedationSystem" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/kumaruttampathak/MovieRecommedationSystem" target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project-2.jpg" alt="Project 2" />
+          <h3>WeatherApp</h3>
+           <ol>
+            <li> Integration: Use JavaScript to fetch weather data from a public API like OpenWeatherMap. Dynamic UI:
+                Update the UI dynamically based on the weather data received.</li>
+            <li>Search Functionality: Allow users to search for weather information in different cities.</li>
+            <li>Responsive Design: Ensure the dashboard looks good on desktop and mobile devices.</li>
+            </ol>
+          <div class="project-links">
+            <a href="https://github.com/kumaruttampathak/WeatherApp" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://kumaruttampathak.github.io/WeatherApp/" target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+        
+        <!-- Add more project cards -->
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <i class="fas fa-certificate"></i>
+          <h3>Cybersecurity Essentials</h3>
+          <p>Cisco Networking Academy</p>
+          <p>2024</p>
+        </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <i class="fas fa-certificate"></i>
+          <h3>Big Data Computing</h3>
+          <p>NPTEL</p>
+          <p>2025</p>
+        </div>
+        <!-- Add more certification cards -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>kumaruttampathak10@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>+91:8292495623</p>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/uttamkumarpathak/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kumaruttampathak/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/uttamstwt" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Uttam Kumar Pathak. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
